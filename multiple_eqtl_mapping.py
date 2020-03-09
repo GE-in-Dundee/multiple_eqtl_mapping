@@ -246,7 +246,7 @@ if __name__=="__main__":
                         type=int,
                         default=1461167480)
     parser.add_argument("--normal",
-                        help="Pass --normal flag to fastQTL."
+                        help="Pass --normal flag to fastQTL.",
                         action='store_true',
                         default=False)
     parser.add_argument("--genes",
